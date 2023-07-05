@@ -15,15 +15,15 @@ public class AcademicBlockFactory {
     private static List<ElectronicEquipment> getElectronicEquipmentsForBlock() {
         List<ElectronicEquipment> electronicEquipmentList = new ArrayList<>();
 
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createLamp(1));
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createLamp(2));
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createLamp(3));
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createLamp(4));
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createLamp(5));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("Lamp", 1));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("Lamp", 2));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("Lamp", 3));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("Lamp", 4));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("Lamp", 5));
 
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createAirConditioner(1));
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createAirConditioner(2));
-        electronicEquipmentList.add(ElectronicEquipmentFactory.createAirConditioner(3));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("AirConditioner", 1));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("AirConditioner", 2));
+        electronicEquipmentList.add(ElectronicEquipmentFactory.createElectronicEquipment("AirConditioner", 3));
 
         return electronicEquipmentList;
     }

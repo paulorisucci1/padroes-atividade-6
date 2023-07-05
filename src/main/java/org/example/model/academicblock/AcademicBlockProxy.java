@@ -1,7 +1,7 @@
 package org.example.model.academicblock;
 
 import org.example.model.Professor;
-import org.example.model.equipamentos.ElectronicEquipment;
+import org.example.model.equipments.ElectronicEquipment;
 
 import java.util.List;
 

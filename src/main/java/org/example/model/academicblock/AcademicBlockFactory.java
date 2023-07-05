@@ -1,7 +1,7 @@
 package org.example.model.academicblock;
 
-import org.example.model.equipamentos.ElectronicEquipment;
-import org.example.model.equipamentos.ElectronicEquipmentFactory;
+import org.example.model.equipments.ElectronicEquipment;
+import org.example.model.equipments.ElectronicEquipmentFactory;
 
 import java.util.ArrayList;
 import java.util.List;

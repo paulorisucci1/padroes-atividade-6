@@ -1,4 +1,4 @@
-package org.example.model.equipamentos;
+package org.example.model.equipments;
 
 public class AirConditioner implements ElectronicEquipment {
 
